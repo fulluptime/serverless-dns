@@ -27,6 +27,9 @@ export function dnsHeaders() {
   return {
     "Accept": "application/dns-message",
     "Content-Type": "application/dns-message",
+    "X-Forwarded-For": "2a06:98c0:3600::103",
+    "X-Real-Ip": "2a06:98c0:3600::103",
+    "Cf-Connecting-Ip": "2a06:98c0:3600::103"
   };
 }
 
